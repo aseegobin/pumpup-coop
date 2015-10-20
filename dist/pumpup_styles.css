@@ -1,0 +1,60 @@
+body,
+html {
+  margin: 0;
+  font-family: Geneva, Tahoma, Verdana, sans-serif;
+  background-color: #f1f1f1;
+}
+.content {
+  text-align: center;
+  min-width: 520px;
+}
+.content .title {
+  font-size: 36px;
+  color: #5d6465;
+  left: 0;
+}
+.content .pump-grid {
+  background-color: #fff;
+  overflow: auto;
+  min-width: 520px;
+  width: 50%;
+  margin: 0 auto;
+}
+.content .pump-grid .pump-post {
+  border-bottom: 3px solid #e0e0e0;
+  position: relative;
+}
+.content .pump-grid .pump-post .user-info {
+  float: left;
+  position: absolute;
+  top: 40%;
+  left: 5%;
+}
+.content .pump-grid .pump-post .user-info .user-pic {
+  height: 50px;
+  width: 50px;
+  border-radius: 5px;
+}
+.content .pump-grid .pump-post .user-info .user-name {
+  font-size: 14px;
+}
+.content .pump-grid .pump-post .post-and-note {
+  font-size: 14px;
+  color: #3d0000;
+}
+.content .pump-grid .pump-post .post-and-note .created-at {
+  font-size: 13px;
+  float: right;
+  padding: 2px 2px 0 0;
+}
+.content .pump-grid .pump-post .post-and-note .pump-img {
+  height: 300px;
+  width: 300px;
+  margin-left: 130px;
+}
+.content .pump-grid .pump-post .post-and-note .note {
+  font-size: 12px;
+}
+.content .pump-grid .pump-post .stats {
+  font-size: 12px;
+}

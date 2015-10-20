@@ -1,0 +1,33 @@
+{
+  "name": "pumpup-coop",
+  "version": "1.0.0",
+  "description": "PumpUp Coop challenge to display feed using React",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "browserify": "^10.1.3",
+    "jquery": "^2.1.4",
+    "gulp-watch": "^4.3.5",
+    "babelify": "^6.0.2",
+    "gulp": "^3.9.0",
+    "react": "^0.13.3",
+    "gulp-stylus": "^2.0.7",
+    "react-router": "^0.13.3",
+    "stylus": "^0.51.1",
+    "watchify": "^3.2.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "watch": "gulp watch-all",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/aseegobin/pumpup-coop.git"
+  },
+  "author": "Avie Seegobin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aseegobin/pumpup-coop/issues"
+  },
+  "homepage": "https://github.com/aseegobin/pumpup-coop"
+}
